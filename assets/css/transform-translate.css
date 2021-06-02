@@ -1,0 +1,20 @@
+.shadow {
+  background: lightgrey;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.circle {
+  background: #a770ef;
+  background: -webkit-linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+  background: linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  transform: translate(-20px, 20px);
+}
