@@ -18,3 +18,17 @@ p:not(.maravilla) {
 .container div:nth-child(1) {
   color: aqua;
 }
+
+h2:active {
+  color: aquamarine;
+}
+
+.focus:focus {
+  background: #d1f2eb;
+  color: coral;
+  border: none;
+}
+
+.disabled:disabled {
+  background: #daf7a6;
+}
