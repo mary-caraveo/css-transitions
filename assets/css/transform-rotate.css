@@ -1,0 +1,12 @@
+div {
+  background: #ffb75e;
+  background: -webkit-linear-gradient(to right, #ed8f03, #ffb75e);
+  background: linear-gradient(to right, #ed8f03, #ffb75e);
+  border-radius: 20%;
+  width: 100px;
+  height: 100px;
+}
+
+div:hover {
+  transform: rotate(20deg);
+}

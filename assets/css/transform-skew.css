@@ -1,0 +1,13 @@
+div {
+  background: #fd746c;
+  background: -webkit-linear-gradient(to right, #ff9068, #fd746c);
+  background: linear-gradient(to right, #ff9068, #fd746c);
+
+  border-radius: 20%;
+  width: 100px;
+  height: 100px;
+}
+
+div:hover {
+  transform: skew(20deg);
+}
