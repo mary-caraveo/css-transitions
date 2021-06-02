@@ -1,0 +1,27 @@
+.card {
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.face {
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.face.front {
+  background: hotpink;
+}
+
+.face.back {
+  background: papayawhip;
+  transform: rotateX(180deg);
+}
