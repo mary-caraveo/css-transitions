@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  max-width: 400px;
+  background: #968a90;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.nav li {
+  padding: 6px;
+  border-radius: 10px;
+  background: #968a90;
+}
+
+.nav li:hover {
+  background: #bbb3b3;
+}
+
+.nav li ul {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 400ms;
+  transition-delay: 300ms;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li {
+  right: -5px;
+}
+
+.nav li:hover > ul {
+  opacity: 1;
+  transition: opacity 400ms;
+  transition-delay: 300ms;
+}
