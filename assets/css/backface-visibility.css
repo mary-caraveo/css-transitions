@@ -11,14 +11,14 @@
 
 .face {
   border-radius: 20px;
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   backface-visibility: hidden;
 }
 
 .face.front {
-  background: hotpink;
+  background: pink;
 }
 
 .face.back {
