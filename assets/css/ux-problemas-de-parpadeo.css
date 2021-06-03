@@ -1,0 +1,14 @@
+div {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.container:hover .item {
+  transform: translateY(-10px);
+  background: hotpink;
+}
+
+.item {
+  background: tomato;
+}
