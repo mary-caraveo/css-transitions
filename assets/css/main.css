@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lobster Two", cursive, "Acme", sans-serif, "Nunito", sans-serif;
+  margin: 0;
+}
+
+.container {
+  background-attachment: fixed;
+  background-image: linear-gradient(to right top, #f7797d, #ffc371, #ff5f6d);
+  padding: 0 16rem;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.title-header {
+  font-family: "Piedra", cursive;
+  display: flex;
+  flex-direction: column;
+  font-size: 28px;
+  color: purple;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.4rem;
+  animation: shake 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewX(10deg);
+  }
+  100% {
+    transform: skewX(-10deg);
+  }
+}
+
+.container-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 0;
+}
+
+.container-menu {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  position: relative;
+  box-shadow: 0 0 11px rgba(241, 5, 5, 0.2);
+  border-radius: 1.6rem;
+  color: black;
+  margin-left: 4rem;
+  padding: 1.6rem 1.6rem 1.6rem 4.4rem;
+}
+
+.button {
+  padding: 0.2rem 0.8rem;
+  border-radius: 0.8rem;
+  background: rgb(255, 228, 105);
+  font-weight: 500;
+  font-size: 1.3rem;
+  cursor: pointer;
+  width: 45px;
+  margin-left: 16rem;
+  transform: rotate(-35deg);
+}
+
+.button:hover {
+  animation: skew 3s infinite;
+  transform: skew(-5deg);
+  box-shadow: 0 0 11px rgba(241, 225, 5, 0.2);
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
