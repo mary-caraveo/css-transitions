@@ -5,12 +5,19 @@ body {
   margin: 0;
   overflow: hidden;
 }
+.content h2 {
+  text-align: center;
+  font-size: 24px;
+}
 
 .container-main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
+  margin: 15px;
+  border-style: double;
+  color: #ed8f03;
 }
 
 .container {
@@ -24,4 +31,25 @@ body {
 
 .container:hover {
   transform: rotate(20deg);
+}
+
+.box {
+  border-style: dashed;
+  border-radius: 10px;
+  background-color: papayawhip;
+  color: hotpink;
+  width: 220px;
+  height: 120px;
+  margin: 0 2rem;
+}
+
+.box p {
+  color: black;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.box p:nth-child(1),
+p:nth-child(3) {
+  color: #ff7300;
 }
