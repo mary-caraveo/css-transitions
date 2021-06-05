@@ -1,4 +1,19 @@
-div {
+body {
+  background: rgba(225, 2, 156, 0.05);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  margin: 0;
+  overflow: hidden;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
   background: hotpink;
   width: 100px;
   height: 100px;
@@ -6,7 +21,7 @@ div {
   transition: transform 1.5s linear;
 }
 
-div:hover {
+.container:hover {
   transition: transform 1s linear;
   transform: translateX(200px);
 }

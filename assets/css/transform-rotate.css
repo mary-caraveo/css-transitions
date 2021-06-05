@@ -1,4 +1,19 @@
-div {
+body {
+  background: rgba(225, 2, 156, 0.05);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  margin: 0;
+  overflow: hidden;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
   background: #ffb75e;
   background: -webkit-linear-gradient(to right, #ed8f03, #ffb75e);
   background: linear-gradient(to right, #ed8f03, #ffb75e);
@@ -7,6 +22,6 @@ div {
   height: 100px;
 }
 
-div:hover {
+.container:hover {
   transform: rotate(20deg);
 }

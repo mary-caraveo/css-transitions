@@ -1,4 +1,19 @@
-div {
+body {
+  background: rgba(225, 2, 156, 0.05);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  margin: 0;
+  overflow: hidden;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
   background: #fd746c;
   background: -webkit-linear-gradient(to right, #ff9068, #fd746c);
   background: linear-gradient(to right, #ff9068, #fd746c);
@@ -8,6 +23,6 @@ div {
   height: 100px;
 }
 
-div:hover {
+.container:hover {
   transform: skew(20deg);
 }
