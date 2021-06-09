@@ -5,21 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/transition-timing-function-delay.css">
     <title>Transition timing function and delay</title>
 </head>
 
 <body>
-    <div class="container-main">
-        <div class="container">
-            <div class="circle one"></div>
-            <div class="circle two"></div>
-            <div class="circle three"></div>
-            <div class="circle four"></div>
-            <div class="circle five"></div>
-            <div class="circle six"></div>
+    <div class="container">
+        <h2>Transition timing function and delay</h2>
+
+        <div class="container-main">
+            <div class="container-circle">
+                <div class="circle one"></div>
+                <div class="circle two"></div>
+                <div class="circle three"></div>
+                <div class="circle four"></div>
+                <div class="circle five"></div>
+                <div class="circle six"></div>
+            </div>
+
+            <div class="box">
+                <p>.one {</p>
+                <p> background: hotpink;
+                    transition: transform 1s linear;
+                    transition-delay: 0.5s;
+                </p>
+                <p>}</p>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>

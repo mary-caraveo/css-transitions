@@ -1,29 +1,13 @@
-body {
-  background: rgba(225, 2, 156, 0.05);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-  margin: 0;
-  overflow: hidden;
-}
-
-.container-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container {
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-
+.square {
+  background: #00c9ff;
+  background: -webkit-linear-gradient(to right, #92fe9d, #00c9ff);
+  background: linear-gradient(to right, #92fe9d, #00c9ff);
   border-radius: 20%;
   width: 100px;
   height: 100px;
   transform-origin: bottom top;
 }
 
-.container:hover {
+.square:hover {
   transform: rotate(20deg);
 }

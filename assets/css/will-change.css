@@ -1,20 +1,8 @@
-body {
-  background: rgba(225, 2, 156, 0.05);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-  margin: 0;
-  overflow: hidden;
-}
-
-.container-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 button {
-  background: hotpink;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+
   width: 100px;
   height: 30px;
   outline: none;

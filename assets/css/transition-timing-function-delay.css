@@ -1,19 +1,4 @@
-body {
-  background: rgba(225, 2, 156, 0.05);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-  margin: 0;
-  overflow: hidden;
-}
-
-.container-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container:hover .circle {
+.container-circle:hover .circle {
   transform: translateX(200px);
 }
 
@@ -56,5 +41,5 @@ body {
 .six {
   background: tomato;
   transition: transform 1s cubic-bezier(0.51, 0.72, 0.91, 0.26);
-  transition-delay: 3s;
+  transition-delay: 2.8s;
 }

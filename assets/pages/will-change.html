@@ -5,17 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/will-change.css">
     <title>Will change</title>
 </head>
 
 <body>
-    <div class="container-main">
-        <div class="container">
-            <button class="better"></button>
-            <button class="worst"></button>
+    <div class="container">
+        <h2>Will change</h2>
+
+        <div class="container-main">
+            <div class="container-button">
+                <button class="better"></button>
+                <button class="worst"></button>
+            </div>
+
+            <div class="box">
+                <p>.worst {</p>
+                <p> will-change: margin-top;
+                    transition: margin-top 500ms;</p>
+                <p>}</p>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>

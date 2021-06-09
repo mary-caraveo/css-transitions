@@ -1,25 +1,8 @@
-body {
-  background: rgba(225, 2, 156, 0.05);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-  margin: 0;
-  overflow: hidden;
-}
-
-.container-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-size: 24px;
-  color: hotpink;
-}
-
 /* pseudo-elements */
-.container::before {
+.pseudo-elements::before {
   content: "👀 ";
 }
 
-.container::after {
+.pseudo-elements::after {
   content: " 😄";
 }

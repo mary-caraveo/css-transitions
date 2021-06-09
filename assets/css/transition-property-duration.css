@@ -1,47 +1,31 @@
-body {
-  background: rgba(225, 2, 156, 0.05);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-  margin: 0;
-  overflow: hidden;
-}
-
-.container-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container {
-  display: flex;
+.squares {
+  display: grid;
   background: papayawhip;
-  width: 400px;
-  height: 100px;
+  width: 80px;
+  height: 260px;
   justify-content: space-around;
-  margin: 30px;
 }
 
-.container:hover .box {
+.squares:hover .box-transition {
   transform: scale(1.2);
 }
 
-.box {
-  width: 100px;
-  height: 100px;
+.box-transition {
+  width: 70px;
+  height: 70px;
 }
 
-.box1 {
+.box-1 {
   background: lightcoral;
   transition: transform 500ms;
 }
 
-.box2 {
+.box-2 {
   background: salmon;
   transition: transform 1s;
 }
 
-.box3 {
+.box-3 {
   background: darksalmon;
   transition: transform 1.5s;
 }

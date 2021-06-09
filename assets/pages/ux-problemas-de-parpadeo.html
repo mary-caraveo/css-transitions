@@ -5,16 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/ux-problemas-de-parpadeo.css">
     <title>UX flickering problems</title>
 </head>
 
 <body>
-    <div class="container-main">
-        <div class="content container">
-            <div class="content item"></div>
+    <div class="container">
+        <h2>UX flickering problems</h2>
+
+        <div class="container-main">
+            <div class="content circle">
+                <div class="content item"></div>
+            </div>
+
+            <div class="box">
+                <p>.circle:hover .item {</p>
+                <p>transform: translateY(-10px);</p>
+                <p>}</p>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>

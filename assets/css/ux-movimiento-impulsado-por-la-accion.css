@@ -1,27 +1,15 @@
-body {
-  background: rgba(225, 2, 156, 0.05);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-  margin: 0;
-  overflow: hidden;
-}
+.circle {
+  background: #ee0979;
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+  background: linear-gradient(to right, #ff6a00, #ee0979);
 
-.container-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container {
-  background: hotpink;
   width: 100px;
   height: 100px;
   border-radius: 50%;
   transition: transform 1.5s linear;
 }
 
-.container:hover {
+.circle:hover {
   transition: transform 1s linear;
-  transform: translateX(200px);
+  transform: translateY(-200px);
 }

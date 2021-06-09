@@ -20,7 +20,7 @@ body {
 }
 
 .title-header {
-  font-family: "Piedra", cursive;
+  font-family: "Piedra", sans-serif;
   display: flex;
   flex-direction: column;
   font-size: 28px;
