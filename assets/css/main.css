@@ -52,11 +52,9 @@ body {
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
-  position: relative;
   box-shadow: 0 0 11px rgba(241, 5, 5, 0.2);
   border-radius: 1.6rem;
   color: black;
-  margin-left: 4rem;
   padding: 1.6rem 1.6rem 1.6rem 4.4rem;
 }
 
@@ -70,6 +68,7 @@ body {
   width: 45px;
   margin-left: 16rem;
   transform: rotate(-35deg);
+  float: right;
 }
 
 .button:hover {
@@ -81,4 +80,30 @@ body {
 .button a {
   text-decoration: none;
   color: black;
+}
+
+@media (max-width: 575.98px) {
+  .title-header {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  .container {
+    padding: 0 20px;
+    min-width: 0;
+    min-height: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    padding: 0 6rem;
+    min-width: 0;
+    min-height: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    padding: 0 6rem;
+  }
 }
