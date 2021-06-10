@@ -46,6 +46,7 @@ body {
 .image_foreground img {
   width: 100%;
 }
+
 .card img {
   position: absolute;
   transform: rotate(-20deg);
@@ -56,7 +57,7 @@ body {
 .one img {
   width: 130px;
   height: 130px;
-  left: 30%;
+  left: 20%;
   top: 150px;
 }
 
@@ -71,7 +72,7 @@ body {
   width: 130px;
   height: 130px;
   right: 20%;
-  bottom: -1000px;
+  bottom: -800px;
 }
 
 .four img {
@@ -79,4 +80,101 @@ body {
   height: 130px;
   left: 10%;
   top: 800px;
+}
+
+@media (max-width: 575.98px) {
+  .image_foreground {
+    transform-origin: center;
+    top: 100px;
+  }
+
+  .image_background img {
+    width: 100vh;
+  }
+
+  .one img {
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    top: 150px;
+  }
+
+  .two img {
+    width: 50px;
+    height: 50px;
+    right: 5%;
+    top: 200px;
+  }
+
+  .three img {
+    width: 50px;
+    height: 30px;
+    right: 20%;
+    bottom: 100px;
+  }
+
+  .four img {
+    width: 60px;
+    height: 60px;
+    left: 10%;
+    top: 600px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .image_background img {
+    width: 100vh;
+  }
+
+  .image_foreground {
+    transform-origin: center;
+    top: 100px;
+  }
+
+  .one img {
+    left: 10%;
+    top: 200px;
+  }
+
+  .two img {
+    right: 10%;
+    top: 500px;
+  }
+
+  .three img {
+    width: 100px;
+    height: 90px;
+    right: 20%;
+    bottom: -200px;
+  }
+
+  .four img {
+    top: 1200px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .image_foreground {
+    top: 5px;
+  }
+
+  .one img {
+    left: 10%;
+    top: 200px;
+  }
+
+  .two img {
+    right: 10%;
+    top: 500px;
+  }
+
+  .three img {
+    width: 100px;
+    height: 90px;
+    bottom: -400px;
+  }
+
+  .four img {
+    top: 1000px;
+  }
 }

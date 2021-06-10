@@ -47,6 +47,12 @@ body {
 }
 
 @media (max-width: 575.98px) {
+  body {
+    font-family: "Fredoka One", cursive;
+    margin: 0;
+    overflow: inherit;
+  }
+
   .container-main {
     display: block;
     margin: 0;
@@ -59,7 +65,7 @@ body {
   }
 
   .container h2 {
-    font-size: 28px;
+    margin: 15px;
   }
 
   .box {
