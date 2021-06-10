@@ -51,7 +51,15 @@ body {
     display: block;
     margin: 0;
     width: 90%;
-    height: 98vh;
+    height: 95vh;
+  }
+
+  .container {
+    margin: 20px 0 0 0;
+  }
+
+  .container h2 {
+    font-size: 28px;
   }
 
   .box {
