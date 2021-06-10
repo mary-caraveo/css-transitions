@@ -29,3 +29,33 @@
   background: darksalmon;
   transition: transform 1.5s;
 }
+
+@media (max-width: 575.98px) {
+  .squares {
+    margin: 35% 35% 5% 35%;
+    height: 220px;
+  }
+
+  .box-transition {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-main {
+    margin-top: 12%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-main {
+    margin-top: 12%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-main {
+    margin-top: 12%;
+  }
+}

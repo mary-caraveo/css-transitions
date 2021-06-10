@@ -43,3 +43,30 @@
   transition: transform 1s cubic-bezier(0.51, 0.72, 0.91, 0.26);
   transition-delay: 2.8s;
 }
+
+@media (max-width: 575.98px) {
+  .container-circle {
+    margin: 30% 25% 5% 30%;
+  }
+  button {
+    width: 90px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-main {
+    margin-top: 12%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-main {
+    margin-top: 12%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-main {
+    margin-top: 12%;
+  }
+}

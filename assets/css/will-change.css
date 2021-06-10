@@ -27,3 +27,30 @@ button {
 .worst:hover {
   margin-top: 5px;
 }
+
+@media (max-width: 575.98px) {
+  .container-button {
+    margin: 40% 15% 30% 25%;
+  }
+  button {
+    width: 90px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-main {
+    margin-top: 12%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-main {
+    margin-top: 12%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-main {
+    margin-top: 12%;
+  }
+}
