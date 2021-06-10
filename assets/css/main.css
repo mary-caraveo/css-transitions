@@ -100,13 +100,39 @@ body {
   }
 
   .title-header {
-    font-size: 18px;
-    margin: 0 10px;
+    font-size: 16px;
+    margin: 0 25px;
+    padding-top: 0;
+    text-align: center;
   }
+
   .container {
-    padding: 0 20px;
+    padding: 0;
     min-width: 0;
     min-height: 0;
+  }
+
+  .container-menu {
+    margin: 0 5px;
+  }
+
+  .container-main {
+    margin: 0 25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .title-header {
+    text-align: center;
+    margin: 0 25px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .container-main {
+    margin: 25px;
   }
 }
 
@@ -119,6 +145,10 @@ body {
     padding: 0 6rem;
     min-width: 0;
     min-height: 0;
+  }
+
+  .title-header {
+    text-align: center;
   }
 }
 
