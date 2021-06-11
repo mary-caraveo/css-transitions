@@ -11,7 +11,6 @@ html {
 body {
   font-family: "Rum Raisin", sans-serif;
   margin: 0;
-  overflow: hidden;
 }
 
 .container {
@@ -26,13 +25,12 @@ body {
   font-family: "Piedra", sans-serif;
   display: flex;
   flex-direction: column;
-  font-size: 28px;
+  font-size: 26px;
   color: purple;
   justify-content: center;
-  align-items: center;
-  padding-top: 2.4rem;
   animation: shake 2s infinite;
   animation-direction: alternate;
+  text-align: center;
 }
 
 @keyframes shake {
@@ -95,15 +93,10 @@ body {
 }
 
 @media (max-width: 575.98px) {
-  body {
-    overflow: scroll;
-  }
-
   .title-header {
     font-size: 16px;
     margin: 0 25px;
     padding-top: 0;
-    text-align: center;
   }
 
   .container {
@@ -123,7 +116,6 @@ body {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .title-header {
-    text-align: center;
     margin: 0 25px;
   }
 
@@ -137,23 +129,23 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  body {
-    overflow: scroll;
-  }
-
   .container {
     padding: 0 6rem;
     min-width: 0;
     min-height: 0;
   }
-
-  .title-header {
-    text-align: center;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .container {
-    padding: 0 6rem;
+    padding: 0;
+  }
+
+  .title-header {
+    margin: 0 2rem;
+  }
+
+  .container-main {
+    padding: 0 6rem 3rem 6rem;
   }
 }
