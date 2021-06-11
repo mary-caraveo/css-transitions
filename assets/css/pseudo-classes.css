@@ -15,7 +15,7 @@ p:not(.maravilla) {
   color: LightCoral;
 }
 
-.container div:nth-child(1) {
+.colour div:nth-child(1) {
   color: aqua;
 }
 
@@ -50,12 +50,12 @@ h2:active {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container-main {
-    margin-top: 12%;
+    margin-top: 10%;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .container-main {
-    margin-top: 10%;
+    margin-top: 8%;
   }
 }
