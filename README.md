@@ -1,6 +1,6 @@
 # CSS Transformations and Transitions
 
-![Screenshot](./assets/img/screen.PNG)
+![Screenshot](./assets/img/screen.png)
 ## Propiedades recomendadas y no recomendadas para animar
 
 Al hacer animaciones debemos fijarnos que no sean demasiado costosas computacionalmente para que no parezcan inestables y poco fluidas.
