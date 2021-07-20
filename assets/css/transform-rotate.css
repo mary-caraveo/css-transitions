@@ -2,7 +2,6 @@
   background: #40e0d0;
   background: -webkit-linear-gradient(to right, #ff0080, #ff8c00, #40e0d0);
   background: linear-gradient(to right, #ff0080, #ff8c00, #40e0d0);
-
   border-radius: 20%;
   width: 100px;
   height: 100px;
@@ -10,10 +9,6 @@
 
 .square:hover {
   transform: rotate(20deg);
-}
-
-.square:hover {
-  transform: skew(20deg);
 }
 
 @media (max-width: 575.98px) {

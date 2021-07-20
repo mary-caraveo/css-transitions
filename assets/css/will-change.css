@@ -2,7 +2,6 @@ button {
   background: #833ab4;
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-
   width: 100px;
   height: 30px;
   outline: none;

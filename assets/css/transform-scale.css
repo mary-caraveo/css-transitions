@@ -11,10 +11,6 @@
   transform: scale(0.8);
 }
 
-.square:hover {
-  transform: skew(20deg);
-}
-
 @media (max-width: 575.98px) {
   .circle {
     margin: 40% 35% 20% 35%;

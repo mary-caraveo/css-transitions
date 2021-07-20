@@ -1,3 +1,7 @@
+.container-circle {
+  width: 200px;
+}
+
 .container-circle:hover .circle {
   transform: translateX(200px);
 }
