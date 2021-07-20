@@ -6,6 +6,7 @@ body {
   margin: 0;
   place-items: center;
   overflow: hidden;
+  background-image: url(../img/flowers-4931217_1280.png); 
 }
 
 .container {
@@ -16,17 +17,41 @@ body {
 .container h2 {
   text-align: center;
   font-size: 32px;
-  color: #2ac130;
+  color: #ab1d44;
 }
+
+.button-close {
+  position: absolute;
+  right: 6px;
+  margin: 8px 4px;
+}
+
+.button-close input {
+  background-color:hotpink;
+  color: white;
+  border-radius: 10% 50%;
+  width: 35px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  }
+
+.button-close input:hover {
+  background-color:tomato;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  }
 
 .container-main {
   display: flex;
   justify-content: center;
+  background-color: ivory;
   align-items: center;
   width: 100vh;
   height: 70vh;
   border-style: solid;
-  color: #ef8fff;
+  color: tomato;
   border-radius: 25px;
   box-shadow: 0 19px 38px rgb(0, 0, 0, 0.3), 0 15px 12px rgb(0, 0, 0, 0.22);
 }
@@ -50,6 +75,10 @@ body {
     font-family: "Fredoka One", cursive;
     margin: 0;
     overflow: inherit;
+  }
+
+  .button-close{
+    right: 18px;
   }
 
   .container-main {
