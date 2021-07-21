@@ -50,9 +50,19 @@
 
 @media (max-width: 575.98px) {
   .container-circle {
-    margin: 30% 25% 5% 30%;
+    margin: 20% 25% 5% 20%;
   }
   button {
     width: 90px;
+  }
+
+  .container-main {
+    height: 115vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .button-close {
+    right: 15px;
   }
 }

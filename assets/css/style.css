@@ -78,7 +78,7 @@ body {
   }
 
   .button-close{
-    right: 18px;
+    right: 20px;
   }
 
   .container-main {
@@ -119,7 +119,7 @@ body {
   }
 
   .container-main {
-    width: 70vh;
+    width: 72vh;
     height: 50vh;
   }
 }
