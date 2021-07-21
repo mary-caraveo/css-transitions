@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #000000;
 }
 
 .parallax-container {
@@ -26,10 +27,11 @@ body {
   transform: translateZ(0px) scale(1);
   transform-origin: 0 50%;
 }
-/* 
+
 .image_background img {
-  width: 100%;
-} */
+  width: 110%;
+  margin: 0;
+}
 
 .image_middle {
   height: 100%;
@@ -70,7 +72,7 @@ body {
 
 .three img {
   width: 130px;
-  height: 130px;
+  height: 100px;
   right: 20%;
   bottom: -800px;
 }
@@ -121,9 +123,28 @@ body {
   }
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .image_background img {
+    width: 160%;
+  }
+
+  .image_foreground{
+    top: 110px;
+  }
+
+  .two img {
+    right: 10%;
+  }
+
+  .three img {
+    width: 100px;
+    height: 50px;
+  }
+ }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .image_background img {
-    width: 100vh;
+    width: 105vh;
   }
 
   .image_foreground {
@@ -154,6 +175,10 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .image_background img {
+    width: 140%;
+}
+
   .image_foreground img {
     padding-top: 20vh;
   }
